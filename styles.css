@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 480px; /* Adjust the width to fit your requirement */
+}
+
+.square {
+  width: 30px; /* Adjust the width to fit your requirement */
+  height: 30px; /* Adjust the height to fit your requirement */
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 10px;
+}
